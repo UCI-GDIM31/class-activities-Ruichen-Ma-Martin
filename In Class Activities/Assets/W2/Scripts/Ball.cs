@@ -15,6 +15,9 @@ public class Ball : MonoBehaviour
     // This code runs whenever the ball hits something.
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        _bounces++;
+
+
         // STEP 1 -------------------------------------------------------------
         // Uncomment ONE of the blow lines of code to ADD ONE
         //      to the value of the variable named '_bounces'.
@@ -40,6 +43,8 @@ public class Ball : MonoBehaviour
         float g = _spriteRenderer.color.g;
         float b = _spriteRenderer.color.b;
 
+        r = r + 0.1f;
+
         // STEP 2 -------------------------------------------------------------
         // Uncomment ONE of the below lines to ADD 0.1 to the value of 'r'.
         //r += 0.1f
@@ -54,6 +59,7 @@ public class Ball : MonoBehaviour
         //      so that we can start over and keep increasing it again.
         if (r > 1.0f)
         {
+            r = 0.0f;
             // STEP 3 ---------------------------------------------------------
             // Uncomment ONE of the below lines of code to set the value of 'r' to ZERO.
             //r = 0.0f
@@ -62,6 +68,8 @@ public class Ball : MonoBehaviour
             // STEP 3 ---------------------------------------------------------
         }
 
+        g -= 0.1f;
+
         // STEP 4 -------------------------------------------------------------
         // Uncomment the below line and fix it to SUBTRACT 0.1 from the value of 'g'.
         //g -= 0.1f
@@ -69,10 +77,18 @@ public class Ball : MonoBehaviour
 
         if (g < 0.0f)
         {
+            g = 1.0f;
             // STEP 5 ---------------------------------------------------------
             // Uncomment the below line and fix it to set the value of 'g' to ONE.
             //g = 1.0;
             // STEP 5 ---------------------------------------------------------
+        }
+
+        b *= 1.2f;
+
+        if (b >= 1.0f)
+        {
+            b = 0.1f;
         }
 
         // STEP 6 -------------------------------------------------------------
@@ -84,7 +100,7 @@ public class Ball : MonoBehaviour
         // Below this comment, write an IF STATEMENT:
         // IF the value of 'b' is GREATER THAN **OR** EQUAL TO 1.0,
         //      set 'b' to 0.1. 
-        
+
         // STEP 7 -------------------------------------------------------------
 
         // This line assigns a new color to your Ball with the new RGB values
@@ -97,13 +113,17 @@ public class Ball : MonoBehaviour
         // We'll talk more about how this line works next week also :)
         Debug.Log(newColor);
 
+        float brightness = r + g +b;
+        brightness = brightness/3.0f;
+        _brightnessText.text = "brightness =" + brightness;
+
         // STEP 8 -------------------------------------------------------------
         // A simple way to calculate how bright a color will be is by
         //      averaging the R, G, B values.
         // Below this comment, write 2 lines of code to ADD the values of 
         //      r, g, and b, and then divide the result by 3.
         // Store the result in a variable named 'brightness'.
-        
+
         // STEP 8 -------------------------------------------------------------
 
         // STEP 9 -------------------------------------------------------------
