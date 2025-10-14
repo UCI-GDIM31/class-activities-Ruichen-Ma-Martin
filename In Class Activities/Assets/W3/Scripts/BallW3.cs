@@ -59,9 +59,9 @@ public class BallW3 : MonoBehaviour
         // write the method body here!
         
     //}
-    private float GetColorMultiplier(float xspeed, float yspeed)
+    [SerializeField]private float GetColorMultiplier(float x, float y)
     {
-        if (xspeed / 2 + yspeed / 2 > _speedThreshold)
+        if (x / 2 + y / 2 > _speedThreshold)
         {
             return 1.5f;
         }
