@@ -14,7 +14,7 @@ I got an error notice that is "Assets\W2\Scripts\Ball.cs(71,18): error CS1002: ;
 
 ### W3 
 discusion table 19 :
-input is the sanity level and the output is void
+input is the sanity level because it equal to light of room and the output is void we don't need output
 
 ## Open-Source Assets
 ### W1
