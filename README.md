@@ -15,6 +15,8 @@ I got an error notice that is "Assets\W2\Scripts\Ball.cs(71,18): error CS1002: ;
 ### W3 
 discusion table 19 :
 input is the sanity level because it equal to light of room and the output is void we don't need output
+quetion 1： the componet is a cake and class is the recipe of the cake and method is waht things we need to make cake like how much flower we need when we making cake and how much eggs we need add.
+quetion 2: because in the code it only add brightness of the ball but do not stop adding
 
 ## Open-Source Assets
 ### W1
