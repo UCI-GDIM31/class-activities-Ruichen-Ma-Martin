@@ -5,14 +5,17 @@ Write your W1 activity Devlog here.
 Hi my name is Ruichen Ma you can call me Martin
 Hello World！ 
 ### W2
-### question 1
+question 1
  I think variable of RGB is a fractional number so type of those varible are float RGB is the number of color, the range of RGB are 0.0 to 1.0
-### question 2
+question 2
 I think the variable of _bounce is an integer number because it collection the total number of the ball bounce
-### question 3
+question 3
 I got an error notice that is "Assets\W2\Scripts\Ball.cs(71,18): error CS1002: ; expected”. this error told me I miss one ";" signal.
 
-### W3
+### W3 
+discusion table 19 :
+input is the sanity level and the output is void
+
 ## Open-Source Assets
 ### W1
 
