@@ -555,7 +555,7 @@ MonoBehaviour:
   ballRenderer: {fileID: 361183300}
   _rigidbody: {fileID: 361183299}
   _speedMultiplier: 1
-  _speedThreshold: 10
+  _speedThreshold: 2
 --- !u!58 &361183298
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1346,7 +1346,7 @@ MonoBehaviour:
   ballRenderer: {fileID: 1050444183}
   _rigidbody: {fileID: 1050444182}
   _speedMultiplier: 1
-  _speedThreshold: 10
+  _speedThreshold: 2
 --- !u!58 &1050444181
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2068,7 +2068,7 @@ MonoBehaviour:
   ballRenderer: {fileID: 1567597160}
   _rigidbody: {fileID: 1567597163}
   _speedMultiplier: 1
-  _speedThreshold: 10
+  _speedThreshold: 2
 --- !u!1 &1633333712
 GameObject:
   m_ObjectHideFlags: 0
@@ -2533,7 +2533,7 @@ MonoBehaviour:
   _pointsText: {fileID: 980115520}
   _speechText: {fileID: 1520169577}
   _maxHealth: 5
-  _destroyCatWhenDead: 0
+  _destroyCatWhenDead: 1
 --- !u!1 &1756818710
 GameObject:
   m_ObjectHideFlags: 0
