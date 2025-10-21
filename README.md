@@ -22,6 +22,8 @@ quetion 2: because in the code it only add brightness of the ball but do not sto
 tablet 19# line 17 declear a varible the type is bool which is a basic C# data type which stores a true or false value. the name of variable is _isGround.
 line 28 is an if statement. the condition of the statement is when player press space and _isGround is true. the code in the bracket {} will work. 
 line 32 is a change the _isGround variable from true to false. this code will work when reach the condition. this will prevent the player jump in the sky.
+tablet 19# ball and cat need rigidbody because they need phyiscal body when the cat hit the ball. the goal don't need a phyiscal body and it will check trigger because it need to record when the ball pass through the goal. during I add the component I find that the cat is floating on the sky. and the problem of this bug is that the size of collidor is too large after i edit the size the collider the cat will not floating.
+
 ## Open-Source Assets
 ### W1
 
