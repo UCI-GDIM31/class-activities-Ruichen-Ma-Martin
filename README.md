@@ -19,7 +19,7 @@ quetion 1： the componet is a cake and class is the recipe of the cake and meth
 quetion 2: because in the code it only add brightness of the ball but do not stop adding
 
 ### w4
-tablet# line 17 declear a varible the type is bool which is a basic C# data type which stores a true or false value. the name of variable is _isGround.
+tablet 19# line 17 declear a varible the type is bool which is a basic C# data type which stores a true or false value. the name of variable is _isGround.
 line 28 is an if statement. the condition of the statement is when player press space and _isGround is true. the code in the bracket {} will work. 
 line 32 is a change the _isGround variable from true to false. this code will work when reach the condition. this will prevent the player jump in the sky.
 ## Open-Source Assets
