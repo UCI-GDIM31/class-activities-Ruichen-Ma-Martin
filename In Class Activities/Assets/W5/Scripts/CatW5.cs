@@ -11,6 +11,7 @@ public class CatW5 : MonoBehaviour
 
     private void Update()
     {
+
         // STEP 1 & 2 ---------------------------------------------------------
         // STEP 1
         // This CatW5 class is a Component on the Cat GameObject. It controls
@@ -44,8 +45,21 @@ public class CatW5 : MonoBehaviour
         // MULTIPLY one of your vectors with a certain value to do this. >:)
 
         Vector3 translation = Vector3.zero;
-        
 
+        if (Input.GetKey(KeyCode.W))
+        {
+            translation.z = 1.0f;
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            translation.z = -1.0f;
+        }
+        transform.Translate(translation * _moveSpeed * Time.deltaTime);
+
+        if (_flipWSControls)
+        {
+            translation.z *= -1.0f;
+        }
 
         // STEP 1 & 2 ---------------------------------------------------------
 
