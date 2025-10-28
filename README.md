@@ -24,6 +24,11 @@ line 28 is an if statement. the condition of the statement is when player press 
 line 32 is a change the _isGround variable from true to false. this code will work when reach the condition. this will prevent the player jump in the sky.
 tablet 19# ball and cat need rigidbody because they need phyiscal body when the cat hit the ball. the goal don't need a phyiscal body and it will check trigger because it need to record when the ball pass through the goal. during I add the component I find that the cat is floating on the sky. and the problem of this bug is that the size of collidor is too large after i edit the size the collider the cat will not floating.
 
+### w5
+my question is how tranform.Translate() this method used?
+base on professor and classmate answer: I think this method is use to call the component transform and Translate is to add some number in the position part.
+
+
 ## Open-Source Assets
 ### W1
 
