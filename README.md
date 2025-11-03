@@ -27,7 +27,8 @@ tablet 19# ball and cat need rigidbody because they need phyiscal body when the 
 ### w5
 my question is how tranform.Translate() this method used?
 base on professor and classmate answer: I think this method is use to call the component transform and Translate is to add some number in the position part.
-
+activity 2: for the varible we need first is the speed of object moveing. also it need the speed of object turning
+I think this method is provide by unity like Update(). it must include Update() ND Start()
 
 ## Open-Source Assets
 ### W1
