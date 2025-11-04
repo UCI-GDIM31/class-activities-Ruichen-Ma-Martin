@@ -30,6 +30,9 @@ base on professor and classmate answer: I think this method is use to call the c
 activity 2: for the varible we need first is the speed of object moveing. also it need the speed of object turning
 I think this method is provide by unity like Update(). it must include Update() ND Start()
 
+### w6
+activities 1: [https://docs.google.com/document/d/13WL1faOUeHHIt5U-4Nu450rY6-oTy8zhNi828PVl7UI/edit?tab=t.0](URL)
+
 ## Open-Source Assets
 ### W1
 
