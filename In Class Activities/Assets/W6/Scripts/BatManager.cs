@@ -12,7 +12,7 @@ public class BatManager : MonoBehaviour
     // STEP 1 -----------------------------------------------------------------
     // Add a member variable named "_bats" that's an array of BatW6 Components.
     // In the Inspector, add ALL of the bats in the Scene.
-    BatW6[] _bats;
+    private BatW6[] _bats;
 
 
     // STEP 1 -----------------------------------------------------------------
@@ -21,9 +21,10 @@ public class BatManager : MonoBehaviour
     // Add a member variable named "_messages" that's an array of strings.
     // In the Inspector, add at least a few different messages for the bats to
     //      say when they reach the player.
-    
-    // STEP 3 -----------------------------------------------------------------
 
+    // STEP 3 -----------------------------------------------------------------
+    private string[] _messages;
+    
     [SerializeField] private float[] _newTextTimers;
 
     // ------------------------------------------------------------------------
@@ -70,11 +71,15 @@ public class BatManager : MonoBehaviour
             float _distance = Vector3.Distance(_bats[i].transform.position, _playerTransform.position);
             if (_distance < _interactDistance)
             {
-                _bats[i].EnableChase(_playerTransform);
+                _bats[i].EnableChase(_playerTransform);//EnableChase是public的，可以直接用。 _bats[1]是这个method的作用对象。
             }
             else
             {
                 _bats[i].DisableChase();
+            }
+            if(_distance < _overlapDistance)
+            {
+                CreateReactions(_bats[i]);
             }
         }
         // https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.html
@@ -109,6 +114,7 @@ public class BatManager : MonoBehaviour
         //      of CreateReactions.
         
         // STEP 5 -------------------------------------------------------------
+        
     }
 
     // ------------------------------------------------------------------------
