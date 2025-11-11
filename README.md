@@ -34,6 +34,10 @@ I think this method is provide by unity like Update(). it must include Update() 
 activities 1: google doc of Table 19 [https://docs.google.com/document/d/13WL1faOUeHHIt5U-4Nu450rY6-oTy8zhNi828PVl7UI/edit?tab=t.0](URL) 
 my Category: General C# coding 
 activities 2: it need declear two member variable. one is a float it is speed of Bat. two is _playerTransform which is in the Transform. IN this scprit it use two method EnableChase() and DisableChase() in this two method I use enable = true in order to Start Bat Chase and I use enable = false to Stop Bat chase
+
+### W7 
+activities 1: google doc of Table 19 [https://docs.google.com/document/d/1Big5iCIqdYzUKfa1Z3fyaYFgzxHEucc_XLNDuWF1kiQ/edit?tab=t.0](URL) my system is environment and Gameplay
+
 ## Open-Source Assets
 ### W1
 
