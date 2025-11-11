@@ -37,7 +37,7 @@ activities 2: it need declear two member variable. one is a float it is speed of
 
 ### W7 
 activities 1: google doc of Table 19 [https://docs.google.com/document/d/1Big5iCIqdYzUKfa1Z3fyaYFgzxHEucc_XLNDuWF1kiQ/edit?tab=t.0](URL) my system is environment and Gameplay
-activities 2: for the step 2 the transform.position only change the position in globle axis but we need Muskrat move in the bubble so I need change from global to local change the position to translate
+activities 2: for the step 2 the transform.position only change the position in world axis but we need Muskrat move in the bubble so I need change from world axis to local axis change the position to translate
 
 ## Open-Source Assets
 ### W1
