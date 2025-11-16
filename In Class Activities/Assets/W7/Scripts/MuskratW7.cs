@@ -46,10 +46,10 @@ public class MuskratW7 : MonoBehaviour
         // You might want to look below Step 3 for an example :D
 
         float leftright = Input.GetAxis("Horizontal");
-        Vector3 up = transform.TransformDirection(Vector3.up);
+        Vector3 Worldup = transform.TransformDirection(Vector3.up);
         transform.RotateAround(
-            transform.position,
-            up,
+            transform.position,//why different from sphereTransform.position
+            Worldup,
             leftright * _rotationSpeed * Time.deltaTime
         );
 
@@ -103,7 +103,7 @@ public class MuskratW7 : MonoBehaviour
         // This line of code is incorrect. 
         // Replace it with a different line of code that uses 'movement' to
         //      move the Muskrat forwards and backwards.
-        
+        //transform.TransformDirection
         //transform.position += movement * Vector3.forward * _moveSpeed * Time.deltaTime;
         transform.Translate(Vector3.forward * movement * _moveSpeed * Time.deltaTime);
 
