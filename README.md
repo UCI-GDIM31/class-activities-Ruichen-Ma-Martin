@@ -39,6 +39,10 @@ activities 2: it need declear two member variable. one is a float it is speed of
 activities 1: google doc of Table 19 [https://docs.google.com/document/d/1Big5iCIqdYzUKfa1Z3fyaYFgzxHEucc_XLNDuWF1kiQ/edit?tab=t.0](URL) my system is environment and Gameplay
 activities 2: for the step 2 the transform.position only change the position in world axis but we need Muskrat move in the bubble so I need change from world axis to local axis change the position to translate
 
+### FINAL REPOSITORY
+### W8
+final project planning of Table 1 [https://docs.google.com/document/d/1OcRnmpJGvT2ei0si4KPq7VGxaeAKZk2t8GYKJxgefwg/edit?tab=t.0#heading=h.ogf5wvad0l6i] (URL)
+my Category: player movement/jumping and prevent double jumping; apart of player animation state
 ## Open-Source Assets
 ### W1
 
